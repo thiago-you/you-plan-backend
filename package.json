@@ -1,13 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple JSON backend",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 3001"
+    "start": "node server.js",
+    "watch": "json-server --watch db.json --port 3001"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "json-server, heroku, node, REST API"
+  ],
+  "author": "Thiago You",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.16.3"
