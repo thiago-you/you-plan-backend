@@ -1,0 +1,92 @@
+{
+    "plannings": [
+        {
+            "id": "da3ab2",
+            "name": "Planning 1",
+            "concluded": "",
+            "created_by": 1
+        }
+    ],
+    "plannings-actions": [
+        {
+            "id": 1,
+            "planning": "da3ab2",
+            "value": ""
+        }
+    ],
+    "plannings-users": [
+        {
+            "id": 1,
+            "user_id": 1,
+            "planning": "da3ab2",
+            "name": "thiago",
+            "admin": true,
+            "vote": ""
+        },
+        {
+            "id": 2,
+            "user_id": 2,
+            "planning": "da3ab2",
+            "name": "jonathan",
+            "admin": true,
+            "vote": ""
+        },
+        {
+            "id": 3,
+            "user_id": 3,
+            "planning": "da3ab2",
+            "name": "paulo",
+            "admin": false,
+            "vote": ""
+        },
+        {
+            "id": 4,
+            "user_id": 4,
+            "planning": "da3ab2",
+            "name": "valoto",
+            "admin": false,
+            "vote": ""
+        }
+    ],
+    "plannings-items": [
+        {
+            "id": 1,
+            "planning": "da3ab2",
+            "name": "Tarefa 1",
+            "description": "Descrição da tarefa 1",
+            "score": ""
+        },
+        {
+            "id": 2,
+            "planning": "da3ab2",
+            "name": "Tarefa 2",
+            "description": "Descrição da tarefa 2",
+            "score": ""
+        },
+        {
+            "id": 3,
+            "planning": "da3ab2",
+            "name": "Tarefa 3",
+            "description": "Descrição da tarefa 3",
+            "score": ""
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "thiago"
+        },
+        {
+            "id": 2,
+            "name": "jonathan"
+        },
+        {
+            "id": 3,
+            "name": "paulo"
+        },
+        {
+            "id": 4,
+            "name": "valoto"
+        }
+    ]
+}
